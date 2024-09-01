@@ -9,12 +9,12 @@ public class Sum {
             static void sum () {
                 Scanner in = new Scanner(System.in);
 
-                System.out.print("enter the number 1 ");
+                System.out.print("enter the number one  ");
                 int num1 = in.nextInt();
-                System.out.print("enter the number 2 ");
+                System.out.print("enter the number two ");
                 int num2 = in.nextInt();
                 int sum = num1 + num2;
-                System.out.print("The sum=" + sum);
+                System.out.print("The sum =" + sum);
 
             }
     }
