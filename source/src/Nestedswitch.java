@@ -14,7 +14,7 @@ public class Nestedswitch {
                 System.out.println("suray");
                 break;
             case 3:
-                System.out.println("niqqa");
+                System.out.println("Viknesh");
                 break;
             case 4:
                 switch (roles){

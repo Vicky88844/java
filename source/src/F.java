@@ -2,13 +2,18 @@ import java.util.Scanner;
 
 public class F {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a number");
-        int i = sc.nextInt();
-        if (i %2==0){
-            System.out.println("EVEN");
+       Scanner nc = new Scanner(System.in);
+
+        System.out.println("Enter your name" );
+        String name= nc.nextLine();
+        if(name.equalsIgnoreCase("Vicky")||
+        name.equalsIgnoreCase("Brownie JR")||
+        name.equalsIgnoreCase("Mintu")||
+        name.equalsIgnoreCase("Brownie"))
+            System.out.println("Welcome!");
+    else {
+            System.out.println("You're a poop particle");
         }
-        else
-        System.out.println("ODD");
+
     }
 }
