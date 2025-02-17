@@ -9,6 +9,9 @@ public class Swap {
         System.out.print("please enter the second number: ");
         int b =ou.nextInt();
         System.out.println("Numbers after swapped");
+        if (a == b){
+            System.out.println("Both of the numbers are same. Try using different numbers");
+        }
 
       int temp =a;
         a=b;
