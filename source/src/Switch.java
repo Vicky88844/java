@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Switch {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+        System.out.println("Enter a Vegetable name");
         String vegetables=in.next();
 
         switch (vegetables) {
@@ -19,7 +20,7 @@ public class Switch {
                 System.out.println("beetroot is purple");
                 break;
             default:
-                System.out.println("please enter a vegetable");
+                System.out.println("Sorry for the inconvenience");
         }
     }
 }
